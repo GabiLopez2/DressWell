@@ -32,6 +32,12 @@ body{
 .menu2{
     flex-direction: column;
 }
+a:hover {
+    background-color: gold;
+  }
+.enlaces :hover{
+    color: #f30000;
+}
 .cabezera{
     display: flex;
     justify-content: space-between;
