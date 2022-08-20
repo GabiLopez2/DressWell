@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;0,700;1,300&display=swap');
+
+/* este es el reinicio de la pagina */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* esqueleto de la pagina */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cbddf8;
+}
+/* este es el inicio de la barra de navegacion */
+.logo{
+    width: 90px;
+}
+.menu{
+    display: flex;
+    margin-right: 200px;
+    grid-area: main;
+    
+}
+.menu a{
+    color:rgb(255, 255, 255);
+    margin-right: 30px;
+    display: flex;
+
+}
+.menu2{
+    flex-direction: column;
+}
+.cabezera{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #000000;
+    border-top: solid 30px rgb(59, 87, 3);
+    grid-area: header;
+}
+/* inicio del baner */
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/imagen\ 4.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.bannernosotros{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/home-financehusband-and-wife-discussing-paper-bill-receipt-together-with-stress-and-confused-feeling-with-many-problem-and-debt-home-interior-background-min.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.destacados1{
+    width: 50%;
+    height: 500px;
+}
+.pie{
+    background-color: #f8a6a6;
+    grid-area: footer;
+}
+.productos2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+}
+.grillaIndex{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    "form";
+}
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    display: grid;
+    width: 99%;
+    height: 500px;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: main;   
+}
+.datosFormulario{
+    display: flex;
+    justify-content: center;
+}
