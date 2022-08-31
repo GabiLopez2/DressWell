@@ -11,7 +11,7 @@
 /* esqueleto de la pagina */
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #cbddf8;
+    background-color: #cbddf8;  
 }
 /* este es el inicio de la barra de navegacion */
 /* .logo{
@@ -137,8 +137,9 @@ footer .padding1{
 .text-aling i{
 	margin-left: 8px;
 	margin-top: 20px;
+    
 }
-.footerA{
+/* .footerA{
    position: absolute;
   bottom: 0;
-}
+}  */ 
