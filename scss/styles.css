@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,200;0,300;0,600;0,700;1,300 & display=swap");
 .grillaIndex {
   background-color: rgb(248, 247, 240);
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #cbddf8;
+  background-color: #ecf1f7;
 }
 
 .navbar {
@@ -19,6 +20,7 @@ body {
   justify-content: center;
 }
 .navbar .colorDefondo2 .colorDefondo {
+  border-radius: 75%;
   background-color: rgb(73, 74, 73);
   display: flex;
   justify-content: center;
@@ -30,12 +32,28 @@ body {
   justify-content: center;
 }
 .contenedor__menu .color__contenedoru {
-  background-color: rgb(242, 242, 242);
-  border-radius: 500px;
+  background-color: rgb(152, 160, 247);
   color: rgb(0, 0, 0);
-  width: 500px;
+  width: 900px;
+  height: 60px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  border-radius: 70px;
+}
+.contenedor__menu .color__contenedoru:hover {
+  background-color: #4ab9c3;
+}
+.contenedor__menu .color__contenedoru .color__texto {
+  list-style-type: none;
+  color: rgb(40, 23, 233);
+  text-decoration: none;
+}
+
+.color__botones {
+  background-color: coral;
 }
 
 div .novedades {
@@ -54,6 +72,7 @@ div .novedades {
 .container .row .cards .card {
   display: flex;
   width: 300px;
+  background-color: transparent;
 }
 .container .row .cards .card .botones {
   display: flex;
@@ -81,14 +100,14 @@ footer .padding1 {
   margin-top: 20px;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #cbddf8;
+}
+
 .mr-auto {
   display: flex;
   align-items: center;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #1567e0;
 }
 
 .color__texto {
@@ -118,4 +137,17 @@ body {
 
 .color__fondo {
   background-color: #ceb6fa;
+}
+
+.hover {
+  background-color: #3a039f;
+}
+
+.color__texto {
+  color: #000000;
+  list-style-type: none;
+}
+
+.botones {
+  background-color: rgb(180, 248, 112);
 }/*# sourceMappingURL=styles.css.map */

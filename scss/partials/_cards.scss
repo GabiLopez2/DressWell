@@ -3,19 +3,21 @@ div{
         display: flex;
     justify-content: center;
     margin-top: 60px; 
+
     }
 }
 .container{
     .row{
 
         margin-top: 70px;
-        
         .cards{  
             display: flex;
             justify-content: center;
+     
              .card{  
                 display: flex;
                 width: 300px;
+                background-color: transparent;
                 .botones{
                     display: flex;
                     justify-content: center;
