@@ -1,5 +1,9 @@
 .botoness {
     @extend %botonBase;
-    background-color: rgb(81, 77, 85);
+    background-color: rgb(229, 194, 194);
     color: rgb(255, 255, 255);
+}
+
+.boton{
+    @include boton (rgb(244, 211, 211), rgb(0, 0, 0) )
 }
