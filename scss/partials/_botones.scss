@@ -7,3 +7,12 @@
 .boton{
     @include boton (rgb(244, 211, 211), rgb(0, 0, 0) )
 }
+.boton__nav{
+    padding-left: 50px;
+}
+.formulario{
+    padding-top: 60px;
+}
+.color__botones{
+    background-color:rgb(234, 247, 200)
+}
